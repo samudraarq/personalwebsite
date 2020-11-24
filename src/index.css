@@ -5,10 +5,11 @@
 }
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1a1b63;
 }
 
 code {
@@ -19,4 +20,5 @@ code {
 /* 1rem = 10px */
 html {
   font-size: 62.5%;
+  color: #19c2d8;
 }
