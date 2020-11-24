@@ -1,0 +1,11 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.navItem {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
