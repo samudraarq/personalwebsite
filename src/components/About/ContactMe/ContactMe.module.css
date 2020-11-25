@@ -1,0 +1,19 @@
+.container {
+  text-align: center;
+  margin-top: 12rem;
+  margin-bottom: 12rem;
+}
+
+.title {
+  font-size: 3.6rem;
+}
+
+.questions {
+  font-size: 1.8rem;
+  margin: 6rem 0;
+}
+
+.contact {
+  font-size: 1.8rem;
+  margin: 1.5rem 0;
+}
