@@ -1,0 +1,46 @@
+.container {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.title {
+  font-size: 3.6rem;
+  text-align: center;
+}
+
+.screenshot {
+  margin: 7rem auto 0;
+  width: 75rem;
+}
+
+.screenshot img {
+  width: 75rem;
+  object-fit: cover;
+}
+
+.screenshot span {
+  display: block;
+  font-size: 1.4rem;
+  margin-top: 0.5rem;
+  text-align: left;
+}
+
+.upBtn {
+  display: block;
+  margin: 5rem auto;
+  border: 1px solid #54e8f9;
+  background-color: transparent;
+  color: #54e8f9;
+  font-weight: 400;
+  font-size: 2.4rem;
+  font-style: inherit;
+  text-transform: uppercase;
+  padding: 0.8rem 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.upBtn:hover {
+  background-color: #54e8f9;
+  color: #1a1b63;
+}
