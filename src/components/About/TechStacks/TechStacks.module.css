@@ -1,0 +1,30 @@
+.title {
+  padding-top: 10rem;
+  text-align: center;
+  font-size: 3.6rem;
+}
+
+.mainstacks {
+  margin-top: 6rem;
+}
+
+.mainstacks > p {
+  font-size: 2.4rem;
+}
+
+.stackIcons {
+  margin-top: 3.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(23rem, 1fr));
+}
+
+.stackIcon {
+  display: grid;
+  grid-template-rows: 18rem 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.stackIcon p {
+  font-size: 1.8rem;
+}
