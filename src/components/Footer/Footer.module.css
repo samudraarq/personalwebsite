@@ -1,0 +1,16 @@
+.container {
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.icons img {
+  margin: 0 4.5rem;
+  cursor: pointer;
+}
+
+.copyright {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  font-size: 1.8rem;
+  color: #3a3c99;
+}
