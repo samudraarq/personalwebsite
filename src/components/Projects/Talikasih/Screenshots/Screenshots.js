@@ -9,6 +9,9 @@ import myprofilepage from "../../../../assets/projects/talikasih/myprofilepage.p
 import adminpanelpage from "../../../../assets/projects/talikasih/adminpanelpage.png";
 
 const Screenshots = () => {
+  const scrollTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
     <SecondaryBg>
       <div className={styles.container}>
@@ -32,7 +35,7 @@ const Screenshots = () => {
             <span>Admin Panel</span>
           </div>
         </div>
-        <button className={styles.upBtn}>
+        <button className={styles.upBtn} onClick={scrollTop}>
           <img src={upicon} alt="up" />
         </button>
       </div>
