@@ -19,3 +19,9 @@
 .bio p {
   font-size: 1.8rem;
 }
+
+@media (max-width: 650px) {
+  .photo {
+    width: 20rem;
+  }
+}

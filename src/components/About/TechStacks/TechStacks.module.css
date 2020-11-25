@@ -53,3 +53,15 @@
 .substackIcon img {
   height: 8rem;
 }
+
+@media (max-width: 950px) {
+  .stackIcon img {
+    height: 13rem;
+  }
+}
+
+@media (max-width: 530px) {
+  .stackIcon img {
+    height: 10rem;
+  }
+}
