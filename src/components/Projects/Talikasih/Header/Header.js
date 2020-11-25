@@ -13,6 +13,8 @@ const Header = () => {
       </p>
       <a
         href="https://tender-williams-093432.netlify.app/"
+        rel="noopener noreferrer"
+        target="_blank"
         className={styles.button}
       >
         Visit Page

@@ -8,9 +8,27 @@ const Footer = () => {
   return (
     <div className={styles.container}>
       <div className={styles.icons}>
-        <img src={twitter} alt="twitter" />
-        <img src={github} alt="github" />
-        <img src={linkedin} alt="linkedin" />
+        <a
+          href="https://twitter.com/Samudra_Arq"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img src={twitter} alt="twitter" />
+        </a>
+        <a
+          href="https://github.com/samudraarq"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img src={github} alt="github" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/samudra-faris-arqam/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img src={linkedin} alt="linkedin" />
+        </a>
       </div>
       <p className={styles.copyright}>2020 Samudra Arqam</p>
     </div>
