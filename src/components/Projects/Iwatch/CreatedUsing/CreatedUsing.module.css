@@ -1,0 +1,27 @@
+.container {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 3.6rem;
+}
+
+.icons {
+  margin-top: 3.5rem;
+  display: grid;
+  grid-template-columns: repeat(1, 23rem);
+  justify-content: center;
+}
+
+.icon {
+  display: grid;
+  grid-template-rows: 18rem 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.icon p {
+  font-size: 1.8rem;
+}

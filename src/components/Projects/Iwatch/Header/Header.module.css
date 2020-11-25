@@ -1,0 +1,53 @@
+.container {
+  text-align: center;
+  margin-top: 8rem;
+  padding-bottom: 12rem;
+}
+
+.title {
+  font-size: 3.6rem;
+}
+
+.summary {
+  width: 55rem;
+  font-size: 1.8rem;
+  margin: 3.5rem auto 0;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 6rem;
+  border: 1px solid #54e8f9;
+  background-color: transparent;
+  color: #54e8f9;
+  font-weight: 400;
+  font-size: 2.4rem;
+  font-style: inherit;
+  text-transform: uppercase;
+  padding: 1.6rem 6rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #54e8f9;
+  color: #1a1b63;
+}
+
+.image {
+  margin: 7rem auto 0;
+  width: 75rem;
+}
+
+.image img {
+  width: 75rem;
+  object-fit: cover;
+}
+
+.image span {
+  display: block;
+  font-size: 1.4rem;
+  margin-top: 0.5rem;
+  text-align: left;
+}
