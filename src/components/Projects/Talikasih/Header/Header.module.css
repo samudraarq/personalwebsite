@@ -37,10 +37,17 @@
 
 .image {
   margin: 7rem auto 0;
+  width: 75rem;
+}
+
+.image img {
+  width: 75rem;
+  object-fit: cover;
 }
 
 .image span {
   display: block;
   font-size: 1.4rem;
   margin-top: 0.5rem;
+  text-align: left;
 }

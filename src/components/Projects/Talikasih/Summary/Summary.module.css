@@ -1,0 +1,23 @@
+.container {
+  margin: 8rem auto 6rem;
+  width: 75rem;
+}
+
+.title {
+  font-size: 3.6rem;
+  text-align: center;
+}
+
+.summary {
+  margin-top: 5rem;
+  font-size: 1.8rem;
+}
+
+.summary p {
+  margin-top: 2rem;
+}
+
+.summary li {
+  list-style: inside;
+  margin-top: 1rem;
+}
