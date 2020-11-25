@@ -1,14 +1,18 @@
-.title {
+.container {
   padding-top: 10rem;
+  padding-bottom: 12rem;
+}
+
+.title {
   text-align: center;
   font-size: 3.6rem;
 }
 
-.mainstacks {
+.stacks {
   margin-top: 6rem;
 }
 
-.mainstacks > p {
+.stacks > p {
   font-size: 2.4rem;
 }
 
@@ -26,5 +30,22 @@
 }
 
 .stackIcon p {
+  font-size: 1.8rem;
+}
+
+.substackIcons {
+  margin-top: 3.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+}
+
+.substackIcon {
+  display: grid;
+  grid-template-rows: 13rem 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.substackIcon p {
   font-size: 1.8rem;
 }
