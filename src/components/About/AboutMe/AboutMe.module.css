@@ -1,0 +1,21 @@
+.container {
+  text-align: center;
+  margin-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.title {
+  font-size: 3.6rem;
+}
+
+.photo {
+  margin-top: 12rem;
+}
+
+.bio {
+  margin-top: 2rem;
+}
+
+.bio p {
+  font-size: 1.8rem;
+}
