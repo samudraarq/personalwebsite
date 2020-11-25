@@ -5,3 +5,59 @@
 .title {
   font-size: 3.6rem;
 }
+
+.projects {
+  margin-top: 8.6rem;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin-top: 8.6rem;
+}
+
+.project:nth-child(even) .banner {
+  grid-column: 2 / 3;
+}
+
+.project:nth-child(even) h3 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.project h3 {
+  font-size: 2.4rem;
+}
+
+.banner {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: calc(100% - 3px);
+  width: 100%;
+  background-color: #000000;
+  opacity: 0.2;
+  transition: all 0.5s ease;
+}
+
+.overlay > * {
+  position: absolute;
+  opacity: 0;
+  transition: all 0.5s ease;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay:hover {
+  opacity: 0.8;
+}
+
+.overlay:hover > * {
+  opacity: 1;
+}
