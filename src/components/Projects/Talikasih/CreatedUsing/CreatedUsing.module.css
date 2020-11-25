@@ -31,3 +31,9 @@
     height: 15rem;
   }
 }
+
+@media (max-width: 430px) {
+  .icons {
+    grid-template-columns: repeat(1, 23rem);
+  }
+}

@@ -21,3 +21,21 @@
   list-style: inside;
   margin-top: 1rem;
 }
+
+@media (max-width: 650px) {
+  .container {
+    width: 65rem;
+  }
+}
+
+@media (max-width: 530px) {
+  .container {
+    width: 50rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    width: 45rem;
+  }
+}

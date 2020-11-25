@@ -44,3 +44,36 @@
 .upBtn:hover {
   background-color: #54e8f9;
 }
+
+@media (max-width: 650px) {
+  .screenshot {
+    width: 50rem;
+  }
+
+  .screenshot img {
+    width: 50rem;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 530px) {
+  .screenshot {
+    width: 50rem;
+  }
+
+  .screenshot img {
+    width: 50rem;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 450px) {
+  .screenshot {
+    width: 45rem;
+  }
+
+  .screenshot img {
+    width: 45rem;
+    object-fit: cover;
+  }
+}

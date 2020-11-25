@@ -29,3 +29,21 @@
 .icon p {
   font-size: 1.8rem;
 }
+
+@media (max-width: 850px) {
+  .icons {
+    grid-template-columns: repeat(2, 23rem);
+  }
+}
+
+@media (max-width: 650px) {
+  .icon img {
+    height: 15rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .icons {
+    grid-template-columns: repeat(1, 23rem);
+  }
+}

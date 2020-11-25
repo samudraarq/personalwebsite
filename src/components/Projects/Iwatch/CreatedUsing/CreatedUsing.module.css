@@ -25,3 +25,9 @@
 .icon p {
   font-size: 1.8rem;
 }
+
+@media (max-width: 650px) {
+  .icon img {
+    height: 15rem;
+  }
+}
