@@ -2,3 +2,33 @@
   max-width: 120rem;
   margin: auto;
 }
+
+@media (max-width: 1250px) {
+  .container {
+    padding: 0 10rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .container {
+    padding: 0 9rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    padding: 0 7rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .container {
+    padding: 0 5rem;
+  }
+}
+
+@media (max-width: 530px) {
+  .container {
+    padding: 0 2rem;
+  }
+}

@@ -33,6 +33,11 @@
 
 .banner {
   position: relative;
+  width: 85rem;
+}
+
+.banner img {
+  width: 85rem;
 }
 
 .overlay {
@@ -61,4 +66,60 @@
 
 .overlay:hover > * {
   opacity: 1;
+}
+
+@media (max-width: 1250px) {
+  .banner {
+    width: 65rem;
+  }
+
+  .banner img {
+    width: 65rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .banner {
+    width: 60rem;
+  }
+
+  .banner img {
+    width: 60rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .project {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+
+  .project:nth-child(even) .banner {
+    grid-column: 1 / -1;
+  }
+
+  .project:nth-child(even) h3 {
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+  }
+}
+
+@media (max-width: 650px) {
+  .banner {
+    width: 50rem;
+  }
+
+  .banner img {
+    width: 50rem;
+  }
+}
+
+@media (max-width: 530px) {
+  .banner {
+    width: 40rem;
+  }
+
+  .banner img {
+    width: 40rem;
+  }
 }

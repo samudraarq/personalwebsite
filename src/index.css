@@ -22,3 +22,27 @@ html {
   font-size: 62.5%;
   color: #19c2d8;
 }
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 43.75%;
+  }
+}
+
+@media (max-width: 350px) {
+  html {
+    font-size: 37.5%;
+  }
+}
