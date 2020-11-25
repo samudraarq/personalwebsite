@@ -8,4 +8,10 @@
   text-transform: uppercase;
   padding: 1.6rem 6rem;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #54e8f9;
+  color: #1a1b63;
 }
