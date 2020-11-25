@@ -8,4 +8,9 @@
 .navItem {
   font-size: 1.8rem;
   font-weight: 700;
+  color: #19c2d8;
+}
+
+.active .navItem {
+  color: #3a3c99;
 }
