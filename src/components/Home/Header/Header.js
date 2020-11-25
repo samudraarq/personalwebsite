@@ -1,4 +1,4 @@
-import Button from "../UI/Button";
+import Button from "../../UI/Button";
 import styles from "./Header.module.css";
 
 const Header = () => {
