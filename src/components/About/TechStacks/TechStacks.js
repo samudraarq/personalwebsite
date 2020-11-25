@@ -10,6 +10,8 @@ import firebaseicon from "../../../assets/about/firebase-icon.png";
 import reactnativeicon from "../../../assets/about/reactnative-icon.png";
 import nodeicon from "../../../assets/about/nodejs-icon.png";
 import mongoicon from "../../../assets/about/mongodb-icon.png";
+import tsicon from "../../../assets/about/ts-logo.png";
+import styledcomponents from "../../../assets/about/styled-components-icon.png";
 
 const TechStacks = () => {
   return (
@@ -40,6 +42,14 @@ const TechStacks = () => {
               <div className={styles.substackIcon}>
                 <img src={nexticon} alt="nextjs" />
                 <p>NextJs</p>
+              </div>
+              <div className={styles.substackIcon}>
+                <img src={tsicon} alt="ts" />
+                <p>TypeScript</p>
+              </div>
+              <div className={styles.substackIcon}>
+                <img src={styledcomponents} alt="styledcomponents" />
+                <p>styled-components</p>
               </div>
               <div className={styles.substackIcon}>
                 <img src={firebaseicon} alt="firebase" />

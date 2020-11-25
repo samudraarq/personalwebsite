@@ -49,3 +49,7 @@
 .substackIcon p {
   font-size: 1.8rem;
 }
+
+.substackIcon img {
+  height: 8rem;
+}
