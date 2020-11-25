@@ -16,7 +16,7 @@ const Projects = () => {
             <div className={styles.banner}>
               <img src={talikasih} alt="talikasih banner" />
               <div className={styles.overlay}>
-                <Button>Learn More</Button>
+                <Button link="talikasih">Learn More</Button>
               </div>
             </div>
             <h3>Talikasih</h3>
@@ -25,7 +25,7 @@ const Projects = () => {
             <div className={styles.banner}>
               <img src={iwatch} alt="iwatch banner" />
               <div className={styles.overlay}>
-                <Button>Learn More</Button>
+                <Button link="iwatch">Learn More</Button>
               </div>
             </div>
             <h3>iWatch</h3>
@@ -34,7 +34,7 @@ const Projects = () => {
             <div className={styles.banner}>
               <img src={anydonor} alt="anydonor banner" />
               <div className={styles.overlay}>
-                <Button>Learn More</Button>
+                <Button link="anydonor">Learn More</Button>
               </div>
             </div>
             <h3>AnyDonor</h3>

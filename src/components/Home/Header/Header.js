@@ -9,7 +9,7 @@ const Header = () => {
         <h1>Frontend Software Developer.</h1>
       </div>
       <div className={styles.btn}>
-        <Button>Contact Me</Button>
+        <Button link="about">Contact Me</Button>
       </div>
     </div>
   );
